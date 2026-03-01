@@ -619,3 +619,91 @@ hr.sep{
 
 .acc-item.open .acc-panel{ display:block; }
 .acc-item.open .acc-icon{ transform: rotate(45deg); }
+
+/* --- Mobile polish overrides (paste at very bottom of style.css) --- */
+@media (max-width: 640px){
+
+  /* give the page breathing room */
+  .container{
+    width: calc(100% - 28px);
+  }
+
+  /* header tighter + CTAs behave */
+  .nav{
+    padding: 10px 0;
+    gap: 10px;
+  }
+  .brand{
+    min-width: auto;
+    gap: 10px;
+  }
+  .brand strong{ font-size: 11px; }
+  .brand span{ font-size: 11px; }
+
+  .nav-cta{
+    gap: 8px;
+  }
+  .btn{
+    padding: 10px 12px;
+    border-radius: 12px;
+  }
+
+  /* hero spacing */
+  .hero{
+    padding: 34px 0 14px;
+  }
+  .hero p{
+    font-size: 14px;
+  }
+  .badges{
+    gap: 8px;
+  }
+  .badge{
+    padding: 7px 9px;
+    font-size: 11px;
+  }
+
+  /* sections tighter */
+  .section{
+    padding: 26px 0;
+  }
+  .section-head{
+    align-items: flex-start;
+  }
+
+  /* cards feel less “giant” */
+  :root{
+    --radius: 16px;
+    --radius2: 18px;
+  }
+
+  /* product page gallery */
+  .gallery .main{
+    aspect-ratio: 4 / 3; /* better on mobile than 16/10 */
+  }
+  .gallery .thumbs{
+    padding: 10px;
+    gap: 8px;
+  }
+  .gallery .thumbs button{
+    width: 84px;
+    height: 58px;
+    border-radius: 12px;
+  }
+
+  /* product info panel spacing */
+  .panel{
+    padding: 14px;
+  }
+
+  /* forms */
+  .input, select, textarea{
+    font-size: 16px; /* prevents iOS zoom */
+  }
+}
+
+@media (max-width: 420px){
+  /* make header buttons not feel cramped on very small phones */
+  .nav-cta .btn.ghost{ display:none; } /* hides “Gallery”/ghost button if present */
+  .btn.primary{ padding: 10px 12px; }
+}
