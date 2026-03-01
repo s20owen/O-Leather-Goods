@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Shop — Leather Goods</title>
+  <meta name="description" content="Browse handmade full grain leather wallets, belts, purses, and accessories."/>
+  <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="/index.html" aria-label="Home">
+        <div class="mark" aria-hidden="true"></div>
+        <div>
+          <strong>OWEN</strong>
+          <span>Leather goods • handmade</span>
+        </div>
+      </a>
+
+      <nav class="navlinks" aria-label="Primary">
+        <a data-nav href="/index.html">Home</a>
+        <a data-nav href="/shop.html">Shop</a>
+        <a data-nav href="/custom.html">Custom Orders</a>
+        <a data-nav href="/about.html">About</a>
+        <a data-nav href="/contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn ghost" href="/custom.html">Request Custom</a>
+        <button id="mobileToggle" class="btn mobile-toggle" aria-expanded="false" aria-controls="drawer">Menu</button>
+      </div>
+    </div>
+
+    <div id="drawer" class="drawer" role="navigation" aria-label="Mobile">
+      <div class="inner">
+        <a href="/index.html">Home</a>
+        <a href="/shop.html">Shop</a>
+        <a href="/custom.html">Custom Orders</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Gallery</h2>
+          <p><span id="count"></span> • Click any item to view details and request a build.</p>
+        </div>
+        <div class="controls" aria-label="Filters">
+          <input id="search" class="input" type="search" placeholder="Search (wallet, belt, black…)"/>
+          <select id="category" aria-label="Category"></select>
+          <select id="sort" aria-label="Sort">
+            <option value="featured">Sort: Featured</option>
+            <option value="name">Sort: Name</option>
+            <option value="category">Sort: Category</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="productGrid" class="grid"></div>
+
+      <div style="height:18px"></div>
+      <div class="panel">
+        <strong style="display:block;font-size:13px;letter-spacing:.05em;text-transform:uppercase;">Want a variation?</strong>
+        <div class="small" style="margin-top:6px;">
+          Click an item, then use the “Request This (Custom)” button. Leather color, stitching, and sizing can be adjusted.
+        </div>
+        <div style="margin-top:12px;">
+          <a class="btn primary" href="/custom.html">Request a Custom Order</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot">
+      <div>© <span data-year></span> OWEN Leather Goods</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="/about.html">Craftsmanship</a>
+        <a href="/custom.html">Custom Orders</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/products.js"></script>
+<script src="/js/ui.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/shop.js"></script>
+</body>
+</html>

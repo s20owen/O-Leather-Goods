@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Product — Leather Goods</title>
+  <meta name="description" content="Product details and custom order request."/>
+  <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="/index.html" aria-label="Home">
+        <div class="mark" aria-hidden="true"></div>
+        <div>
+          <strong>OWEN</strong>
+          <span>Leather goods • handmade</span>
+        </div>
+      </a>
+
+      <nav class="navlinks" aria-label="Primary">
+        <a data-nav href="/index.html">Home</a>
+        <a data-nav href="/shop.html">Shop</a>
+        <a data-nav href="/custom.html">Custom Orders</a>
+        <a data-nav href="/about.html">About</a>
+        <a data-nav href="/contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn ghost" href="/shop.html">Back to Gallery</a>
+        <button id="mobileToggle" class="btn mobile-toggle" aria-expanded="false" aria-controls="drawer">Menu</button>
+      </div>
+    </div>
+
+    <div id="drawer" class="drawer" role="navigation" aria-label="Mobile">
+      <div class="inner">
+        <a href="/index.html">Home</a>
+        <a href="/shop.html">Shop</a>
+        <a href="/custom.html">Custom Orders</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="/shop.html">Gallery</a>
+        <span>›</span>
+        <span>Details</span>
+      </div>
+
+      <div class="product-page">
+        <div class="gallery">
+          <div class="main">
+            <img id="mainImg" alt="Product image"/>
+            <div id="mainPlaceholder" class="placeholder" style="display:none;width:92%;border-radius:20px;border:1px dashed rgba(255,255,255,.18);background:rgba(0,0,0,.22);color:rgba(255,255,255,.55);font-size:12px;padding:16px;">
+              Add images in <strong>/assets</strong> and update <strong>products.js</strong>.
+            </div>
+          </div>
+          <div id="thumbs" class="thumbs" aria-label="Thumbnails"></div>
+
+          <div class="panel" style="margin-top:12px;">
+            <strong style="display:block;font-size:13px;letter-spacing:.05em;text-transform:uppercase;">Item details</strong>
+            <ul id="photoNotes" class="list" style="margin-top:10px;"></ul>
+          </div>
+
+        </div>
+
+        <div class="panel">
+          <h2 id="pTitle" style="margin:0;font-size:22px;letter-spacing:-.01em;"></h2>
+          <div id="pMeta" class="small" style="margin-top:6px;"></div>
+
+          <p id="pDesc" style="margin:12px 0 0;color:var(--muted);font-size:13px;"></p>
+
+          <ul id="pBullets" class="list"></ul>
+
+          <hr class="sep"/>
+
+          <div class="kpi">
+            <div class="dot"></div>
+            <div>
+              <strong>Lead time</strong>
+              <span id="pLead"></span>
+            </div>
+          </div>
+
+          <div style="height:10px"></div>
+
+          <div class="kpi">
+            <div class="dot"></div>
+            <div>
+              <strong>Typical price</strong>
+              <span id="pPrice"></span>
+            </div>
+          </div>
+
+          <div style="height:14px"></div>
+
+          <button id="inquireBtn" class="btn primary" type="button">Request This (Custom)</button>
+          <div class="helper">Placing a custom order? Include your desired belt length in the request form. For the best fit, measure a belt you currently own from the center of where the material folds over the buckle to the hole you use most often.</div>
+        </div>
+        <hr class="sep"/>
+
+<div class="accordion" id="accordion">
+  <div class="acc-item open" data-acc="materials">
+    <button class="acc-btn" type="button">
+      <span class="acc-title">Materials and features</span>
+      <span class="acc-icon">+</span>
+    </button>
+    <div class="acc-panel" id="acc-materials"></div>
+  </div>
+
+  <div class="acc-item" data-acc="care">
+    <button class="acc-btn" type="button">
+      <span class="acc-title">Leather care</span>
+      <span class="acc-icon">+</span>
+    </button>
+    <div class="acc-panel" id="acc-care"></div>
+  </div>
+
+  <div class="acc-item" data-acc="dimensions">
+    <button class="acc-btn" type="button">
+      <span class="acc-title">Dimensions</span>
+      <span class="acc-icon">+</span>
+    </button>
+    <div class="acc-panel" id="acc-dimensions"></div>
+  </div>
+
+  <div class="acc-item" data-acc="guarantee">
+    <button class="acc-btn" type="button">
+      <span class="acc-title">Lifetime guarantee</span>
+      <span class="acc-icon">+</span>
+    </button>
+    <div class="acc-panel" id="acc-guarantee"></div>
+  </div>
+
+  <div class="acc-item" data-acc="shipping">
+    <button class="acc-btn" type="button">
+      <span class="acc-title">Shipping, returns and refunds</span>
+      <span class="acc-icon">+</span>
+    </button>
+    <div class="acc-panel" id="acc-shipping"></div>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot">
+      <div>© <span data-year></span> O Leather Goods</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="/about.html">Craftsmanship</a>
+        <a href="/custom.html">Custom Orders</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/products.js"></script>
+<script src="/js/ui.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/product.js"></script>
+</body>
+</html>
