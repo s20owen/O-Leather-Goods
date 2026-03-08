@@ -1,0 +1,293 @@
+{
+  "brand": {
+    "name": "Owen Leather Goods",
+    "announcement": "Handmade leather goods — request a custom build anytime."
+  },
+  "collections": [
+    { "slug": "wallets", "title": "Wallets" },
+    { "slug": "belts", "title": "Belts" },
+    { "slug": "bags", "title": "Bags" },
+    { "slug": "accessories", "title": "Accessories" },
+    { "slug": "key-chains", "title": "Key Chains" },
+    { "slug": "notebook-covers", "title": "Notebook Covers" }
+  ],
+  "products": [
+
+    {
+      "id": "wallet-bifold-rusty",
+      "title": "Rusty Bifold Wallet",
+      "collection": "wallets",
+      "fromPrice": 90,
+      "featured": true,
+      "images": [
+        "/assets/bifolds/bifold-rustbrown-crazyhorse.png",
+        "/assets/bifolds/bifold-rustbrown-crazyhorse1.png",
+        "/assets/bifolds/bifold-rustbrown-crazyhorse2.png"
+      ],
+      "description": "Handcrafted from full-grain leather. Classic bifold with card slots and a spacious cash pocket.",
+      "highlights": [
+        "Full-grain Crazy Horse leather (Made in the USA)",
+        "Hand-burnished edges",
+        "Customized with Texas Star Concho",
+        "Features 6 card slots 2 hidden pockets and a cash pocket"
+      ],
+      "materials": "Rust Brown Crazy Horse Leather from Siedel(USA), Cognac Minerva Leather from Badalassi Carlo (Italy)",
+      "care": "Avoid soaking. Condition occasionally with a neutral leather balm. Keep away from direct heat.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Closed: 4.25\" x 3.25\". Open: 8.5\" x 3.25\"."
+    },
+
+    {
+      "id": "wallet-bifold-black-minerva",
+      "title": "Black Bifold Wallet",
+      "collection": "wallets",
+      "fromPrice": 110,
+      "featured": false,
+      "images": [
+        "/assets/bifolds/bifold-black-minerva.png",
+        "/assets/bifolds/bifold-black-minerva1.png",
+        "/assets/bifolds/bifold-black-minerva2.png"
+      ],
+      "description": "Handcrafted from full-grain leather. Classic bifold with card slots and a spacious cash pocket.",
+      "highlights": [
+        "Full-grain Minerva leather (Made in Italy)",
+        "Hand-burnished and dyed edges",
+        "Fully lined cash pocket",
+        "Features 6 card slots 2 hidden pockets and a cash pocket"
+      ],
+      "materials": "Rust Brown Crazy Horse Leather from Siedel(USA), Cognac Minerva Leather from Badalassi Carlo (Italy)",
+      "care": "Avoid soaking. Condition occasionally with a neutral leather balm. Keep away from direct heat.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Closed: 4.25\" x 3.25\". Open: 8.5\" x 3.25\"."
+    },
+
+    {
+      "id": "wallet-bifold-olmo-minerva",
+      "title": "Olmo Bifold Wallet",
+      "collection": "wallets",
+      "fromPrice": 90,
+      "featured": false,
+      "images": [
+        "/assets/bifolds/bifold-olmo-minerva.png",
+        "/assets/bifolds/bifold-olmo-minerva1.png",
+        "/assets/bifolds/bifold-olmo-minerva2.png"
+       
+      ],
+      "description": "Handcrafted from full-grain leather. Classic bifold with card slots and a spacious cash pocket.",
+      "highlights": [
+        "Full-grain Minerva leather (Made in Italy)",
+        "Hand-burnished and dyed edges",
+        "Black stitching",
+        "Features 6 card slots 2 hidden pockets and a cash pocket"
+      ],
+      "materials": "Olmo Minerva Leather from Badalassi Carlo (Italy)",
+      "care": "Avoid soaking. Condition occasionally with a neutral leather balm. Keep away from direct heat.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Closed: 4.25\" x 3.25\". Open: 8.5\" x 3.25\"."
+    },
+
+    {
+      "id": "longwallet-cognac-minerva",
+      "title": "Cognac Long Wallet",
+      "collection": "wallets",
+      "fromPrice": 110,
+      "featured": false,
+      "images": [
+        "/assets/long wallets/longwallet-cognac-minerva1.png",
+        "/assets/long wallets/longwallet-cognac-minerva2.png",
+        "/assets/long wallets/longwallet-cognac-minerva3.png"
+       
+      ],
+      "description": "Handcrafted from full-grain leather. Custom Long Wallet with card slots and a spacious cash pocket.",
+      "highlights": [
+        "Full-grain Minerva leather (Made in Italy)",
+        "Hand-burnished and dyed edges",
+        "Brownstitching",
+        "Features 7 card slots 2 hidden pockets, a cash slot and an ID window"
+      ],
+      "materials": "Cognac and Walnut Minerva Leather from Badalassi Carlo (Italy)",
+      "care": "Avoid soaking. Condition occasionally with a neutral leather balm. Keep away from direct heat.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Closed: 4.25\" x 3.25\". Open: 8.5\" x 3.25\"."
+    },
+
+  
+    {
+      "id": "belt-veg-natural",
+      "title": "Natural Veg Tan Belt",
+      "collection": "belts",
+      "fromPrice": 75,
+      "featured": true,
+      "images": [
+      "/assets/belts/belt-veg-natural.png",
+      "/assets/belts/belt-veg-natural1.png"
+    ],
+      "description": "Thick, durable belt built to last. Solid hardware and clean finishing.",
+      "highlights": [
+        "Thick durable leather",
+        "Solid hardware",
+        "Clean minimal finish",
+        "Sizes + buckle options"
+      ],
+      "materials": "8–10 oz full-grain leather, solid buckle hardware.",
+      "care": "Wipe clean. Condition lightly 1–2x/year.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Width: 1.5\". Sizes: 30–44."
+    },
+
+    {
+      "id": "belt-chrome-inkblue",
+      "title": "Horween Cavalier Belt",
+      "collection": "belts",
+      "fromPrice": 75,
+      "featured": true,
+      "images": [
+      "/assets/belts/belt-chrome-blue.png"
+    ],
+      "description": "Thick, durable belt built to last. Solid brass hardware. Cut to your size and buckle preference.",
+      "highlights": [
+        "Thick durable leather",
+        "Solid brass hardware",
+        "Everyday wear ready",
+        "Custom sizes + buckle options"
+      ],
+      "materials": "8–10 oz full-grain leather Ink Blue Horween Cavalier (Made in USA), solid brass nickel plate buckle, solid brass nickel plate rivets.",
+      "care": "Wipe clean with damp cloth. Condition lightly as needed.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Width: 1.5\". Sizes: 30–44."
+    },
+   
+    {
+      "id": "sling-bag",
+      "title": "Crossbody Sling Bag",
+      "collection": "bags",
+      "fromPrice": 200,
+      "featured": false,
+      "images": [
+      "/assets/bags/green-crossbody.png", 
+      "/assets/bags/green-crossbody1.png",
+      "/assets/bags/green-crossbody2.png"
+      ],
+      "description": "A structured travel bag with premium leather and rugged stitching.",
+      "highlights": [
+        "Structured body",
+        "Heavy duty stitching",
+        "Custom strap options",
+        "Built for daily life and travel"
+      ],
+      "materials": "Taurillion green calf leather (Spain), Natural Minerva Leather from Badalassi Carlo (Italy), solid brass hardware.",
+      "care": "Condition occasionally. Store away from heat and moisture.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Varies by build — confirm in request."
+    },
+
+    {
+      "id": "black-natural-shoulder-bag",
+      "title": "Medium Shoulder Bag",
+      "collection": "bags",
+      "fromPrice": 200,
+      "featured": false,
+      "images": [
+      "/assets/bags/black-natural-shoulder-bag.png"
+      ],
+      "description": "A structured travel bag with premium leather and rugged stitching.",
+      "highlights": [
+        "Structured body",
+        "Heavy duty stitching",
+        "Custom strap options",
+        "Built for daily life and travel"
+      ],
+      "materials": "Conceria Walpier Black Buttero Leather (Italy), Natural Minerva Leather from Badalassi Carlo (Italy), solid brass hardware.",
+      "care": "Condition occasionally. Store away from heat and moisture.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Varies by build — confirm in request."
+    },
+
+    {
+      "id": "black-brown-shoulder-bag",
+      "title": "Small Shoulder Bag",
+      "collection": "bags",
+      "fromPrice": 150,
+      "featured": false,
+      "images": [
+      "/assets/bags/black-brown-shoulder-bag.png",
+      "/assets/bags/black-brown-shoulder-bag1.png",
+      "/assets/bags/black-brown-shoulder-bag2.png"
+      ],
+      "description": "A structured travel bag with premium leather and rugged stitching.",
+      "highlights": [
+        "Structured body",
+        "Heavy duty stitching",
+        "Custom strap options",
+        "Built for daily life and travel"
+      ],
+      "materials": "Conceria Walpier Black Buttero Leather (Italy), Badalassi Carlo Brown Minerva Leather (Italy), solid brass hardware.",
+      "care": "Condition occasionally. Store away from heat and moisture.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Varies by build — confirm in request."
+    },
+
+    {
+      "id": "keychain-pink-ice",
+      "title": "Key Chain",
+      "collection": "accessories",
+      "fromPrice": 30,
+      "featured": false,
+      "images": [
+      "/assets/accessories/keychain-pink-ice1.png",
+      "/assets/accessories/keychain-pink-ice2.png"
+      ],
+      "description": "Pink Key Chain with solid brass hardware.",
+      "highlights": [
+        "Perfect for keys and attaching to bags or belt loops",
+        "Customized intial embossing"
+      ],
+      "materials": "Ice Calfskin Leather (Europe), solid brass hardware.",
+      "care": "Condition occasionally. Store away from heat and moisture.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Varies by build — confirm in request."
+    },
+
+    {
+      "id": "keychain-black-epsom",
+      "title": "Key Chain",
+      "collection": "accessories",
+      "fromPrice": 30,
+      "featured": false,
+      "images": [
+      "/assets/accessories/keychain-black-epsom.png"
+      ],
+      "description": "Black Key Chain with solid brass hardware.",
+      "highlights": [
+        "Perfect for keys and attaching to bags or belt loops",
+        "Solid brass sling clip"
+      ],
+      "materials": "Black Epsom Leather from Tanneries HAAS (France), solid brass hardware.",
+      "care": "Condition occasionally. Store away from heat and moisture.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Varies by build — confirm in request."
+    },
+
+    {
+      "id": "keychain-blue-epsom",
+      "title": "Key Chain",
+      "collection": "accessories",
+      "fromPrice": 30,
+      "featured": false,
+      "images": [
+      "/assets/accessories/keychain-blue-epsom1.png",
+      "/assets/accessories/keychain-blue-epsom2.png"
+      ],
+      "description": "Blue Key Chain with solid brass hardware.",
+      "highlights": [
+        "Perfect for keys and attaching to bags or belt loops",
+        "Solid brass sling clip"
+      ],
+      "materials": "Blue Epsom Leather from Tanneries HAAS (France), solid brass hardware.",
+      "care": "Condition occasionally. Store away from heat and moisture.",
+      "shipping": "Lead time confirmed after request.",
+      "dimensions": "Varies by build — confirm in request."
+    }
+
+  ]
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shop</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header id="siteHeader"></header>
+
+  <main class="container">
+    <section class="page">
+      <div class="pagePad">
+        <div style="display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap">
+          <div>
+            <h1 class="h2" style="margin:0" id="title">Shop</h1>
+            <div class="muted" style="margin-top:8px;font:500 14px/1.5 var(--sans)" id="subtitle"></div>
+          </div>
+          <select class="select" id="sort" style="min-width:200px">
+            <option value="featured">Featured</option>
+            <option value="az">Name: A–Z</option>
+            <option value="za">Name: Z–A</option>
+          </select>
+        </div>
+
+        <div class="hr"></div>
+        <div class="grid4" id="grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/js/pages/collection.js"></script>
+</body>
+</html>

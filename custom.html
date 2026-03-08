@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Custom Order</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header id="siteHeader"></header>
+
+  <main class="container">
+    <section class="page">
+      <div class="pagePad">
+        <h1 class="h2" style="margin:0">Custom Order Request</h1>
+        <div class="muted" style="margin-top:8px;font:500 14px/1.6 var(--sans)">
+          Request an item as shown or customize options. We’ll respond by email.
+        </div>
+
+        <div class="hr"></div>
+
+        <form name="custom-order" method="POST" netlify action="/thank-you.html"
+              data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="custom-order" />
+          <input type="hidden" name="order_ref" id="orderRef" />
+          <p style="display:none">
+            <label>Don’t fill this out: <input name="bot-field" /></label>
+          </p>
+
+          <div class="formGrid">
+            <div class="field">
+              <label>Product</label>
+              <select class="select" name="product" id="productSelect" required></select>
+            </div>
+
+            <div class="field">
+              <label>Quantity</label>
+              <input class="text" name="quantity" type="number" min="1" value="1" required />
+            </div>
+
+            <div class="field">
+              <label>Leather Color</label>
+              <select class="select" name="leather_color" required>
+                <option>Brown</option>
+                <option>Dark Brown</option>
+                <option>Black</option>
+                <option>Tan</option>
+                <option>Natural</option>
+                <option>Other (specify in notes)</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label>Thread Color</label>
+              <select class="select" name="thread_color" required>
+                <option>Tan Stitching</option>
+                <option>Brown Stitching</option>
+                <option>Black Stitching</option>
+                <option>White Stitching</option>
+                <option>Other (specify in notes)</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label>Personalization</label>
+              <select class="select" name="personalization">
+                <option value="none">None</option>
+                <option value="initials">Initials</option>
+                <option value="name">Name</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label>Personalization Text</label>
+              <input class="text" name="personalization_text" placeholder="e.g., O.W." />
+            </div>
+
+            <div class="field">
+              <label>Customer Name</label>
+              <input class="text" name="customer_name" required />
+            </div>
+
+            <div class="field">
+              <label>Email</label>
+              <input class="text" name="email" type="email" required />
+            </div>
+
+            <div class="field">
+              <label>Phone (optional)</label>
+              <input class="text" name="phone" />
+            </div>
+
+            <div class="field">
+              <label>Needed By (optional)</label>
+              <input class="text" name="needed_by" placeholder="MM/DD/YYYY" />
+            </div>
+          </div>
+
+          <div class="field" style="margin-top:12px">
+            <label>Notes</label>
+            <textarea class="textarea" name="notes" placeholder="Dimensions, pocket layout, belt size, hardware notes, etc."></textarea>
+          </div>
+
+          <div class="hr"></div>
+
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <button class="btn" type="submit" id="submitBtn">Send Request</button>
+            <a class="btn secondary" href="/collection.html">Browse Products</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/js/pages/custom.js"></script>
+</body>
+</html>

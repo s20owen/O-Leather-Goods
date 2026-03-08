@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header id="siteHeader"></header>
+
+  <main class="container">
+    <section class="page">
+      <div class="pagePad">
+        <h1 class="h2" style="margin:0">Contact</h1>
+        <div class="muted" style="margin-top:8px;font:500 14px/1.6 var(--sans)">
+          Ask a question — we’ll respond by email.
+        </div>
+
+        <div class="hr"></div>
+
+        <form name="contact" method="POST" netlify action="/thank-you.html"
+              data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
+          <p style="display:none">
+            <label>Don’t fill this out: <input name="bot-field" /></label>
+          </p>
+
+          <div class="formGrid">
+            <div class="field">
+              <label>Name</label>
+              <input class="text" name="name" required />
+            </div>
+
+            <div class="field">
+              <label>Email</label>
+              <input class="text" name="email" type="email" required />
+            </div>
+          </div>
+
+          <div class="field" style="margin-top:12px">
+            <label>Message</label>
+            <textarea class="textarea" name="message" required></textarea>
+          </div>
+
+          <div class="hr"></div>
+
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <button class="btn" type="submit" id="contactSubmit">Send Message</button>
+            <a class="btn secondary" href="/collection.html">Browse Products</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/js/pages/contact.js"></script>
+</body>
+</html>
